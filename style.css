@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+.progress-fill {
+    width: 0;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 5px;
+}
+button {
+    padding: 1rem 2rem ;
+    border-radius: 5px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
